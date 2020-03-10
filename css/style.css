@@ -1,0 +1,52 @@
+.logo {
+  margin: 0 auto;
+  position: relative;
+  width: 485px;
+  height: 240px;
+  background: url('../img/logo-bg.png') no-repeat top;
+  background-size: contain;
+  cursor: pointer;
+}
+.logo:hover .logo__main-text{
+  animation-duration: 1s;
+  animation-name: bounceIn;
+}
+.logo:hover .logo__text{
+  animation-duration: 0.5s;
+  animation-name: fadeInRight;
+}
+
+.logo__man {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 56%;
+  height: 100%;
+  
+}
+.logo__man img {
+  width: 100%;
+}
+
+.logo__main-text {
+  position: absolute;
+  top: 10%;
+  right: 9%;
+  width: 46%;
+  height: 53%;
+}
+.logo__main-text img {
+  width: 100%;
+}
+
+.logo__text {
+  position: absolute;
+  bottom: 10%;
+  right: 2.5%;
+  width: 42%;
+  height: 23%;
+}
+.logo__text img {
+  width: 100%;
+}
